@@ -1,0 +1,39 @@
+@media screen and (max-width: 481px) {
+	
+}
+@media screen and (max-width: 960px) {
+  header{
+    max-width: 100%;
+  }
+  main{
+    height: 1500px;
+    max-width: 100%;
+    display: block;
+    text-align: center;
+  }
+	.time-display{
+    max-width: 100%;
+  }
+  .graph{
+    max-width: 100%;
+  }
+  .date{
+    display: none;
+  }
+  .top-submit{
+    display: none;
+  }
+  .left-content{
+    max-width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
+  .right-content{
+    max-width: 90%;
+    position: relative;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
+}
